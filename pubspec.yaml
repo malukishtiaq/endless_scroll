@@ -1,0 +1,40 @@
+name: car_dealership
+description: "A new Flutter project."
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_svg: ^2.0.10
+  cached_network_image: ^3.4.0
+  form_field_validator: ^1.1.0
+  animations: ^2.0.11
+  flutter_credit_card: ^3.0.3
+  flutter_bloc: ^8.1.6
+  shared_preferences: ^2.3.2
+  equatable: ^2.0.5
+  get_it: ^7.2.0
+  injectable: ^2.4.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  build_runner: ^2.4.12
+  injectable_generator: ^2.0.0
+  flutter_lints: ^4.0.0
+  flutter_native_splash: ^2.2.3+1
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+   - assets/images/
+   - assets/icons/
